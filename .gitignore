@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project specific
+/data/runs/
+/data/qdrant/
+/data/agent.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
