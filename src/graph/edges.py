@@ -17,7 +17,7 @@ def route_after_review(state: AgentState) -> str:
             return "search_code"
         else:
             # all done!
-            return "create_pr"
+            return "approve"
             
     elif review.verdict == "revise" and retry_count < max_retries:
         return "revise"
